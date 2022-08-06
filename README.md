@@ -14,6 +14,7 @@ Khi đó vào http://localhost:3000 là thấy giao diện chatbot
 C3: Sử dụng docker (dùng khi deploy)
 
 docker run -d -p 3000:80 -v ${pwd}:/usr/share/nginx/html nginx
+
 docker cp index.html <ID của container nginx tạo ở lệnh trên>:/usr/share/nginx/html
 
 
